@@ -1482,7 +1482,7 @@ footer
   border-radius: 50%;
   position: fixed;
   right: 25px;
-  bottom: 100px;
+  bottom: 90px;
 }
 /*
 中の三角は疑似要素で作成
@@ -2054,7 +2054,7 @@ footer
   border-radius: 50%;
   position: fixed;
   right: 25px;
-  bottom: 160px;
+  bottom: 120px;
   z-index: 2;
 }
 
