@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>株式会社HHUUDD_Web制作サイト-SERVICE PAGE-</title>
+    <meta name="description" content="株式会社HHUUDD、HUD,ヒュード、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、ECサイト、CMSカスタマイズ、LP、SERVICE PAGE、サービスページ">
+    <meta name="keywords" content="株式会社HHUUDD、HUD,ヒュード、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、ECサイト、CMSカスタマイズ、LP、SERVICE PAGE、サービスページ">
+  
+    <!-- CSS -->
+    <!-- 各ブラウザーのデフォルトCSSをリセット --> 
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- これから指定していくCSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4de523845.js" crossorigin="anonymous"></script>
+
+    <!-- ファビコン -->
+    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OGP --> <!-- OGPは contact.htmlに設定するもの？ シェアされるページのhead内に設置 -->
+    <meta property="og:url" content="http://example.com/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="株式会社HHUUDD_Web制作サイト">
+    <meta property="og:description" content="株式会社HHUUDD、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、LP">
+    <meta property="og:img" content="http://example.com/images/ogp.jpg">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-logo">
+        <a href="index.html"><img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDロゴ"></a>
+      </h1>
+
+      <nav id="nav">
+        <a href="#"><img  class="nav-logo" src="img/logo-hhuudd-white.png"></a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">HOME</a></li>
+          <li class="nav-item"><a href="service.html">SERVICE</a></li>
+        </ul>
+        <a  class="nav-btn" href="contact.html">お問い合わせ</a>
+      </nav>
+
+      <!-- ヘッダーお問い合わせ -->
+      <div class="header-contact-btn">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a  class="contact-btn" href="contact.html">
+              お問い合わせ
+            </a>
+          </li>
+          <li class="nav-item">
+            <span class="circle"></span>
+          </li>
+          <li class="nav-item">
+            <span class="arrow"></span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ハンバーガーボタン -->
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="hero">
+        <picture>
+          <img class="hero-img" src="img/service_visu.jpg" height="315" width="1280" alt="サービス紹介">
+        </picture>
+        <div class="hero-txt">
+          <h2 class="page-title">SERVICE</h2>
+          <p class="hero-ja">サービス紹介</p>
+        </div>
+      </div>
+
+      <div class="service-lead">
+        <p class="sec-title-ja">
+          Webサイトを作る目的をお聞かせください
+        </p>
+      </div>
+
+      <!-- SERVICE-LINEUPセクションここから -->
+      <section id="service-lineup">
+        <div class="lineup-nav">
+          <div class="lineup-sticky">
+            <ul class="lineup-li">
+              <li>
+                <a href="#service-item1" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="fas fa-building s-icon" aria-hidden="true"></i>
+                    <span>
+                      <em>コーポレートサイト</em>を作りたい
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#service-item2" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="fas fa-handshake s-icon" aria-hidden="true"></i>
+                    <span>
+                      <em>採用サイト</em>を作りたい
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#service-item3" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="fas fa-plane-arrival s-icon" aria-hidden="true"></i>
+                    <span>
+                      <em>ランディングページ（LP）</em>を作りたい
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#service-item4" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="far fa-cart-shopping s-icon s-icon-shopping" aria-hidden="true"></i>
+                    <span>
+                      <em>ECサイト</em>をカスタマイズしたい
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#service-item5" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="fab fa-wordpress-simple s-icon" aria-hidden="true"></i>
+                    <span>
+                      <em>CMS</em>をカスタマイズしたい
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#service-item6" class="lineup-item">
+                  <div class="lineup-name">
+                    <i class="far fa-rotate s-icon s-icon-rotate" aria-hidden="true"></i>
+                    <span>
+                      <em>リニューアル</em>したい
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="lineup-illust pc-only -desktop">
+              <picture class="pc-only-img" data-lineup-target="image" aria-hidden="true" data-loaded="true">
+                <img src="img/lineup.svg">
+              </picture>
+            </div>
+          </div>
+        </div> <!--  /.lineup-nav-->
+
+        <div class="lineup-contents">
+          <div id="service-item1" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">コーポレートサイト</h4>
+                <p class="lineup-p-txt">問い合わせ件数の向上、獲得にコミットするサイトを制作します。</p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service1.jpg">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ページ</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item1 /.lineup-contentここまで -->
+          <div id="service-item2" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">採用サイト</h4>
+                <p class="lineup-p-txt">貴社の魅力を最大限に引き出し、「この会社で働きたい！」と思わせるサイトを制作いたします。</p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service2.jpg">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ページ</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item2 /.lineup-contentここまで -->
+          <div id="service-item3" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">ランディングページ</h4>
+                <p class="lineup-p-txt">ユーザーが楽しめ、かつ申し込みなどのアクションに繋がるようなサイトを制作いたします。</p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service3.png">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item3 /.lineup-contentここまで -->
+          <div id="service-item4" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">ECサイトのカスタマイズ</h4>
+                <p class="lineup-p-txt">更新可能なECサイトについて軽微な修正から大規模なものまでカスタマイズいたします。</p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service4.png">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ページ</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item4 /.lineup-contentここまで -->
+          <div id="service-item5" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">CMSのカスタマイズ
+                </h4>
+                <p class="lineup-p-txt">更新可能なCMSベースのサイトの機能・デザインの追加や変更を軽微なものから大規模なものまでカスタマイズいたします。</p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service5.png">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ページ</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item5 /.lineup-contentここまで -->
+          <div id="service-item6" class="lineup-content">
+            <div class="lineup-flex">
+              <div class="lineup-p">
+                <h4 class="lineup-p-heading">リニューアル</h4>
+                <p class="lineup-p-txt">課題の解決にそもそもリニューアルが必要なのかお客様と綿密な打ち合わせをし、リニューアルが必要な場合は、ご要望に沿うデザインに仕上げます。<span><br>※場合によってはリニューアルではなく別のサービスを提案させていただきます。</span></p>
+              </div>
+              <div class="lineup-content-img">
+                <img src="img/service6.jpg">
+              </div>
+            </div>
+            <div class="lineup-reference-price-ttl"><p>-目安の料金</p></div>
+            <div class="lineup-reference-price">
+              <ul class="reference-price-li">
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">構成</p>
+                    <p class="reference-price-description">1ページ</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">制作期間</p>
+                    <p class="reference-price-description">1ヶ月〜</p>
+                  </div>
+                </li>
+                <li class="reference-price-item">
+                  <div class="reference-price-inner">
+                    <p class="reference-price-structure">料金</p>
+                    <p class="reference-price-description">10万円</p>
+                  </div>
+                </li>
+              </ul>
+            </div> <!-- /.lineup-reference-priceここまで -->
+          </div> <!-- /# service-item6 /.lineup-contentここまで -->
+
+        </div> <!-- /.lineup-contentsここまで -->
+        
+      </section>
+      <!-- SERVICE-LINEUPセクションここまで -->
+
+      <!-- FLOWセクションここから -->
+      <section id="flow">
+        <h2 class="sec-title">
+          FLOW
+        </h2>
+        <p class="sec-title-ja">
+          お問い合わせから納品までの流れ
+        </p>
+
+        <div class="flowbar">
+          <div class="flowbarwrap">
+            <div class="flow-left">
+              <div class="flowtitle">
+                <div class="flowcircle">
+                  <span>01</span>
+                </div>
+                <p class="title">お問い合わせ</p>
+              </div>
+              <div class="flowtxt">
+                <span class="txt">
+                  お問い合わせフォームよりご連絡ください
+                </span>
+              </div>
+            </div>
+            <div class="flow-right">
+              <div class="flowimg">
+                <img src="img/flow1.png" alt="封筒のイラスト">
+              </div>
+            </div>
+            <span class="flowline"></span>
+          </div> <!-- /.flowbarwrap1 -->
+          
+          <div class="flowbarwrap">
+            <div class="flow-left">
+              <div class="flowtitle">
+                <div class="flowcircle">
+                  <span>02</span>
+                </div>
+                <p class="title">ヒアリング</p>
+              </div>
+              <div class="flowtxt">
+                <span class="txt">
+                  訪問・オンラインにてヒアリングを行います
+                </span>
+              </div>
+            </div>
+            <div class="flow-right">
+              <div class="flowimg">
+                <img src="img/flow2.png" alt="耳のイラスト">
+              </div>
+            </div>
+            <span class="flowline flowline-even"></span>
+          </div> <!-- /.flowbarwrap2 -->
+
+          <div class="flowbarwrap">
+            <div class="flow-left">
+              <div class="flowtitle">
+                <div class="flowcircle">
+                  <span>03</span>
+                </div>
+                <p class="title">ご提案</p>
+              </div>
+              <div class="flowtxt">
+                <span class="txt">
+                  ヒアリング内容を元にお見積書をご提出いたします
+                </span>
+              </div>
+            </div>
+            <div class="flow-right">
+              <div class="flowimg">
+                <img src="img/flow3.png" alt="提案書をお客様に見せているイメージのイラスト">
+              </div>
+            </div>
+            <span class="flowline"></span>
+          </div> <!-- /.flowbarwrap3 -->
+
+          <div class="flowbarwrap">
+            <div class="flow-left">
+              <div class="flowtitle">
+                <div class="flowcircle">
+                  <span>04</span>
+                </div>
+                <p class="title">制作開始</p>
+              </div>
+              <div class="flowtxt">
+                <span class="txt">
+                  ご発注が確定いたしましたら制作を開始いたします
+                </span>
+              </div>
+            </div>
+            <div class="flow-right">
+              <div class="flowimg">
+                <img src="img/flow4.png" alt="封筒のイラスト">
+              </div>
+            </div>
+            <span class="flowline flowline-even"></span>
+          </div> <!-- /.flowbarwrap4 -->
+
+          <div class="flowbarwrap">
+            <div class="flow-left">
+              <div class="flowtitle">
+                <div class="flowcircle">
+                  <span>05</span>
+                </div>
+                <p class="title">納品</p>
+              </div>
+              <div class="flowtxt">
+                <span class="txt">
+                  お客様に満足いただけるWebサイトを納品させていただきます
+                </span>
+              </div>
+            </div>
+            <div class="flow-right">
+              <div class="flowimg">
+                <img src="img/flow5.png" alt="お辞儀している人のイラスト">
+              </div>
+            </div>
+            <span class="flowline"></span>
+          </div> <!-- /.flowbarwrap5 -->
+        </div> <!-- /.flowbar -->
+      </section> <!-- /#FLOW -->
+      <!-- FLOWセクションここまで -->
+
+      <!-- CONTACTセクションここから -->
+      <section id="contact">
+        <div class="triangle"></div>
+         <!-- /.triangle -->
+
+        <div class="contact-container">
+          <h2 class="sec-title sec-title-white">
+            CONTACT
+          </h2>
+          <p class="sec-title-ja sec-title-ja-white">
+            制作に関するご質問・ご相談はこちらよりお願いいたします
+          </p>
+          <p>
+          ご相談、お問い合わせは無料です
+          </p>
+          <a  class="nav-btn" href="contact.html">
+             お問い合わせ
+          </a>
+        </div>
+      </seciton>
+    </main>
+
+    <footer id="footer">
+      <a id="to-top" href="#"></a>
+      <a id="to-contact" href="contact.html">
+        <i class="fas fa-envelope c-icon" aria-hidden="true"></i>
+      </a>
+
+      <div class="footer-container">
+        <h1 class="site-logo">
+          <a href="index.html"><img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDロゴ"></a>
+        </h1>
+
+        <div class="footer-item">
+          <ul>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Term of use</a></li>
+          </ul>
+        </div>
+      </div> <!-- /.footer-container wrapper -->
+      <p class="copy">
+        &copy; Copyright © 2020 hhuudd all right reserved.
+      </p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
