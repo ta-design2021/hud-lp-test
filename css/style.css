@@ -812,14 +812,14 @@ service --------------------------------- */
   height: 115px;
   background-color: #160c54;
   position: absolute;
-  top: 8em;
+  top: 9em;
   left: 9em;
-  transform: translateY(15px) rotate(-35deg);
+  transform: translateY(15px) rotate(-25deg);
 }
 
 /* 2,4番目の線を右にずらす */
 .flowbar .flowbarwrap .flowline-even {
-  transform: translateY(15px) rotate(35deg);
+  transform: translateY(15px) rotate(25deg);
 }
 
 .flowbarwrap:last-of-type .flowline:last-of-type {
