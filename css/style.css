@@ -113,7 +113,7 @@ span {
   color: #fff;
 }
 
-/* flowとcontact背景の矢印デザイン */
+/* flowとcontact背景の逆三角形デザイン */
 .triangle::after {
   content: "";
   position: absolute;
@@ -218,7 +218,6 @@ header
 -------------------------------------------*/
 #header {
   width: 100%;
-  /* height: 80px; */
   padding: 24px 0 24px 24px;
   background-color: #0428A1;
   position: fixed;
@@ -226,7 +225,6 @@ header
   left: 0;
   z-index: 35;
   display: flex;
-  /* margin-bottom: 80px; */
 }
 
 #header .site-logo {
@@ -239,7 +237,7 @@ header
  }
 
 /* 
-nav --------------------------------- */
+nav menu--------------------------------- */
 #nav {
   position: fixed;
   top: 0;
@@ -276,12 +274,22 @@ nav --------------------------------- */
 }
 
 #nav .nav-item::after{
-  content: "〉";
-  color:#fff;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  transform: rotate(45deg);
   position: absolute;
   top: 50%;
   right: 24px;
-  margin-top: -12px;
+  margin-top: -6px;
+  transition: right 0.5s;
+}
+
+#nav .nav-item:hover::after {
+  right: 1em;
 }
 
 #nav .nav-item a {
@@ -334,7 +342,7 @@ nav --------------------------------- */
   right: 100px;
 }
 
-.header-contact-btn .nav-item .contact-btn {
+.header-contact-btn .contact-btn {
   width: 240px;
   height: 100px;   
   display: flex;
@@ -356,19 +364,19 @@ nav --------------------------------- */
   transform: skew(45deg);
   position: absolute;
   top: 45%;
-  right: 36px;
-} 
+  right: 40px;
+}
 
 /* 白丸 */
 .circle {
   display: inline-block;
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: #fff;
   position: absolute;
-  top: 40%;
-  right: 24px;
+  top: 35%;
+  right: 20px;
 }
 
 /* ハンバーガーメニューの枠 */
@@ -387,7 +395,7 @@ nav --------------------------------- */
 /*
 ハンバーガーメニューの線の設定（メニューが閉じている時）
 */
-.toggle-btn span {
+.toggle-btn > span {
   display: block;
   position: absolute;
   width: 50px;
@@ -411,6 +419,7 @@ nav --------------------------------- */
 .toggle-btn span:nth-child(2) {
   top: 50px;
   left: 25px;
+  width: 40px;
 }
 
 /*
@@ -419,7 +428,7 @@ nav --------------------------------- */
 .toggle-btn span:nth-child(3) {
   bottom: 35px;
   left: 25px;
-  width: 32px;
+  width: 25px;
 }
 
 /*
@@ -1593,7 +1602,6 @@ input[type=checkbox],  input[type=radio] {
   border-top: 1px solid #0428a1;
 }
 
-
 /*-------------------------------------------
 footer
 -------------------------------------------*/
@@ -1757,7 +1765,7 @@ footer
   border-width: 60px 49.99vw 0 49.99vw;
 }
 /*-------------------------------------------
-SP-header
+header
 -------------------------------------------*/
 #header {
   height: 80px;
@@ -1769,7 +1777,7 @@ SP-header
 }
 
 /* 
-header nav ------------------------ */
+SP-header nav ------------------------ */
 #nav {
   height: 70vh;
 }
@@ -1800,14 +1808,14 @@ header お問い合わせ ------------------------ */
 
 .toggle-btn span {
   width: 40px;
-  height: 2px;
+  height: 3px;
 }
 
 /*
 1本目の線の位置を設定
 */
 .toggle-btn span:nth-child(1) {
-  top: 25px;
+  top: 28px;
   left: 20px;
 }
 
@@ -1817,6 +1825,7 @@ header お問い合わせ ------------------------ */
 .toggle-btn span:nth-child(2) {
   top: 40px;
   left: 20px;
+  width: 30px;
 }
 
 /*
@@ -1825,18 +1834,34 @@ header お問い合わせ ------------------------ */
 .toggle-btn span:nth-child(3) {
   bottom: 25px;
   left: 20px;
-  width: 25px;
+  width: 20px;
 }
 
 /*
 クリック後の1・3本目の線の長さ調整
 */
-.open .toggle-btn span:nth-child(1), span:nth-child(3) {
+.open .toggle-btn span:nth-child(1) {
   width: 40px;
 }
 
 .open .toggle-btn span:nth-child(3) {
   width: 40px;
+}
+
+/*
+1本目の線を-45度回転
+*/
+.open .toggle-btn span:nth-child(1) {
+  -webkit-transform: translateY(12px) rotate(-45deg);
+  transform: translateY(12px) rotate(-45deg);
+}
+
+/*
+3本目の線を45度回転
+*/
+.open .toggle-btn span:nth-child(3) {
+  -webkit-transform: translateY(-12px) rotate(45deg);
+  transform: translateY(-12px) rotate(45deg);
 }
 
 /*-------------------------------------------
@@ -2074,7 +2099,7 @@ CONTACT ------------------------ */
 }
 
 /*-------------------------------------------
-SP-service.html
+service.html
 -------------------------------------------*/
 /* 
 SERVICE-LINEUP ------------------------ */
@@ -2333,7 +2358,7 @@ SERVICE-LINEUP右側 ------------------------ */
 }
 
 /*-------------------------------------------
-SP-CONTACT.html
+CONTACT.html
 -------------------------------------------*/
 .contact-lead {
   font-size: 0.85rem;
@@ -2533,7 +2558,7 @@ input[type=checkbox] {
 
 
 /*-------------------------------------------
-SP-footer
+footer
 -------------------------------------------*/
 #footer {
   padding: 24px 0 12px 24px;
@@ -2566,6 +2591,13 @@ SP-footer
   padding-bottom: 0;
 }
 
+
+/* 
+ トップへ戻るボタン------------------------ */
+#to-top {
+  bottom: 40px;
+}
+
 /* 
 右下のcontactへボタン------------------------ */
 #to-contact {
@@ -2577,7 +2609,7 @@ SP-footer
   border-radius: 50%;
   position: fixed;
   right: 25px;
-  bottom: 160px;
+  bottom: 100px;
   z-index: 2;
 }
 
@@ -2593,3 +2625,4 @@ SP-footer
 }
 
 }
+
