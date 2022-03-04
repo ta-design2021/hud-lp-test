@@ -938,10 +938,10 @@ service.html
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding:clamp(15px,calc(20/var(--size-base)*100vw),20px) 2% clamp(15px,calc(20/var(--size-base)*100vw),20px) 6vw;
+  padding: clamp( 15px, calc( 20/ var(--size-base) * 100vw), 20px) 2% clamp( 15px, calc( 20/ var(--size-base) * 100vw), 20px) 5vw;
   background: rgba(233, 239, 242, .6);
-  font-size: clamp(12px,calc(16/var(--size-base)*100vw),16px);
-  line-height: 1.375;
+  font-size: clamp( 12px, calc( 16 / var(--size-base) * 100vw),16px);
+  line-height: 1.5;
   color: #160c54;
   position: relative;
   z-index: 1;
@@ -991,7 +991,7 @@ service.html
   border-bottom: 1px solid;
 }
 
-/* FontAwesome　アイコン設定 */
+/* FontAwesome アイコン設定 */
 #service-lineup .lineup-nav .lineup-sticky .lineup-name .s-icon {
   width: clamp( 18px, calc( 24 / var(--size-base) * 100vw), 24px);
   transition: inherit;
@@ -1661,8 +1661,8 @@ footer
 表示・非表示の切り替えはjQueryで行うため、詳細は「script.js」のコメントを参照
 */
 #to-top {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-color: #46aab5;
   border: solid 1px #fff;
   border-radius: 50%;
@@ -1675,12 +1675,12 @@ footer
 */
 #to-top::after {
   content: "";
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid #fff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #fff;
   position: relative;
-  left: 17px;
-  bottom: 3px;
+  left: 25%;
+  top: 5px;
 }
 
 #to-contact {
@@ -2593,7 +2593,19 @@ footer
 /* 
  トップへ戻るボタン------------------------ */
 #to-top {
+  width: 50px;
+  height: 50px;
   bottom: 40px;
+}
+/*
+中の三角は疑似要素で作成
+*/
+#to-top::after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  left: 30%;
+  top: -4px;
 }
 
 /* 
@@ -2618,7 +2630,7 @@ footer
   height: 1em;
   vertical-align: -0.125em;
   position: absolute;
-  top: 18%;
+  top: 19%;
   left: 25%;
 }
 
