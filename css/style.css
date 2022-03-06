@@ -2123,6 +2123,7 @@ SERVICE-LINEUP左側 ------------------------ */
 
 #service-lineup .lineup-nav .lineup-li {
   padding: 0 0 clamp(8px,calc(10/var(--size-base)*100vw),10px) 0;
+  padding: 0 0 0 0;
   height: 25vh; /* とりあえずこれで高さを調整*/
   height: auto;
 }
