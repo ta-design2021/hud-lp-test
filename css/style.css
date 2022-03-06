@@ -1675,12 +1675,17 @@ footer
 */
 #to-top::after {
   content: "";
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid #fff;
+  box-sizing: border-box;
+  display: inline-block;
   position: relative;
-  left: 25%;
-  top: 5px;
+  width: 25px;
+  height: 25px;
+  border-style: solid;
+  border-width: 4px 4px 0 0;
+  border-color: #fff;  
+  transform: rotate( -45deg);
+  left: 35%;
+  top: 30px;
 }
 
 #to-contact {
@@ -2597,15 +2602,12 @@ footer
   height: 50px;
   bottom: 35px;
 }
-/*
-中の三角は疑似要素で作成
-*/
+
 #to-top::after {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+  width: 20px;
+  height: 20px;
   left: 30%;
-  top: -4px;
+  top: 20px;
 }
 
 /* 
