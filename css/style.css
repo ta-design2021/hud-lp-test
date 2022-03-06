@@ -2607,8 +2607,8 @@ footer
 #to-top::after {
   width: 20px;
   height: 20px;
-  left: 30%;
   top: 20px;
+  left: 30%;
 }
 
 /* 
@@ -2633,7 +2633,7 @@ footer
   height: 1em;
   vertical-align: -0.125em;
   position: absolute;
-  top: 20%;
+  top: 12px;
   left: 25%;
 }
 
