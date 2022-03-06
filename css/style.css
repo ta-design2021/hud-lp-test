@@ -2308,6 +2308,7 @@ SERVICE-LINEUP右側 ------------------------ */
 .tab-content-title {
   font-size: 0.9rem;
   margin: 18px 0 24px;
+  text-decoration: underline 10px solid #FFFF00;
 }
 
 .tab-content-lead {
