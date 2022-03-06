@@ -1059,7 +1059,7 @@ service.html
 #service-lineup .lineup-contents .lineup-content .lineup-p .lineup-p-heading {
   font-size: 1.5rem;
   line-height: 1.25;
-  text-decoration: underline 10px solid #FFFF00;
+  text-decoration: underline 8px solid #FFFF00;
 }
 
 #service-lineup .lineup-contents .lineup-content .lineup-flex .lineup-p {
@@ -1231,7 +1231,7 @@ service.html
   color: #4e7bcc;
   font-size: 1.3rem;
   margin-bottom: 18px;
-  text-decoration: underline 10px solid #FFFF00;
+  text-decoration: underline 8px solid #FFFF00;
 }
 
 .tab-content-lead {
@@ -2306,7 +2306,7 @@ SERVICE-LINEUP右側 ------------------------ */
   font-size: 0.7rem;
   margin: 18px 0 24px;
   line-height: 2.5;
-  text-decoration: underline 10px solid #FFFF00;
+  text-decoration: underline 8px solid #FFFF00;
 }
 
 .tab-content-lead {
