@@ -262,7 +262,7 @@ nav menu--------------------------------- */
 }
 
 #nav .nav-menu {
-  margin: 100px 0 40px 0;
+  margin: 100px 0 60px 0;
 }
 
 #nav .nav-item {
@@ -296,10 +296,6 @@ nav menu--------------------------------- */
   display: block;
   height: 80px;
   line-height: 80px;
-}
-
-#nav .nav-item:last-child {
-  margin-bottom: 80px;
 }
 
 .nav-btn {
@@ -1792,9 +1788,9 @@ SP-header nav ------------------------ */
   top: 32px;
 }
 
-#nav .nav-menu {
+/* #nav .nav-menu {
   margin: 100px 0 40px 0;
-}
+} */
 
 /* 
 header お問い合わせ ------------------------ */
