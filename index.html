@@ -1,497 +1,769 @@
+<!-- ローカルindex.html -->
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>株式会社HHUUDD_Web制作サイト</title>
-    <meta name="description" content="株式会社HHUUDD、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、LP">
-    <meta name="keywords" content="株式会社HHUUDD、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、ECサイト、LP">
-  
+    <title>株式会社HHUUDD_Web制作サイト_TOPページ</title>
+    <meta name="description" content="株式会社HHUUDD_Web制作サイトです。ホームページ、LP、ECサイト・CMSのカスタマイズ、リニューアル等を承っております。まずは気軽にご相談ください。">
+    <meta name="keywords" content="株式会社HHUUDD、HUD、ヒュード、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、ECサイト、CMSカスタマイズ、LP、SERVICE PAGE、サービスページ">
+
     <!-- CSS -->
-    <!-- 各ブラウザーのデフォルトCSSをリセット --> 
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- 各ブラウザーのデフォルトCSSをリセット -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
     <!-- これから指定していくCSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Montserrat:wght@700&family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
 
     <!-- FontAwesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b4de523845.js" crossorigin="anonymous"></script>
-  
+
     <!-- ファビコン -->
-    <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
-  
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
     <!-- viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- OGP --> <!-- OGPは contact.htmlに設定するもの？ シェアされるページのhead内に設置 -->
-    <meta property="og:url" content="http://example.com/index.html">
+    <!-- OGP --> <!-- OGPはシェアされるページのhead内に設置 -->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta property="og:url" content="https://tadesign3549.xsrv.jp/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="株式会社HHUUDD_Web制作サイト">
-    <meta property="og:description" content="株式会社HHUUDD、株式会社HHUUDD_Web制作サイト、Web制作、ホームページ、LP">
-    <meta property="og:img" content="http://example.com/images/ogp.jpg">
+    <meta property="og:description" content="株式会社HHUUDDのWeb制作サイトです。ホームページ、ECサイト・CMSカスタマイズ、LP、お問い合わせページの新規制作やリニューアル、お客様のご要望に合わせてお作りいたします">
+    <meta property="og:img" content="https://tadesign3549.xsrv.jp/img/ogp.jpg">
   </head>
 
   <body>
-    <header id="header">
-      <h1 class="site-logo">
-        <a href="index.html">
-          <img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDロゴ">
-        </a>
-      </h1>
+    <div class="SiteWrapper">
+      <!-- headerここから -->
+      <header id="header">
+        <div class="header-inner wrapper">
+          <h1 class="site-logo">
+            <a href="index.html">
+              <img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDのロゴ" loading="lazy">
+            </a>
+          </h1>
 
-      <nav id="nav">
-        <a href="#"><img  class="nav-logo" src="img/logo-hhuudd-white.png"></a>
-        <ul class="nav-menu">
-          <li class="nav-item"><a href="index.html">HOME</a></li>
-          <li class="nav-item"><a href="service.html">SERVICE</a></li>
-        </ul>
-        <a  class="nav-btn" href="contact.html">お問い合わせ</a>
-      </nav>
+          <!-- ハンバーガーボタン -->
+          <div class="toggle-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
 
-      <!-- ヘッダーお問い合わせ -->
-      <div class="header-contact-btn">
-        <a class="contact-btn" href="contact.html">
-          <ul class="nav-menu">
-            <li class="nav-item">
+          <nav id="nav" class="nav-menu">
+            <ul>
+              <li class="nav-menu-item">
+                <a href="https://hhuudd.com/">Corporate Site</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="contact/index.php">Contact</a>
+              </li>
+            </ul>
+          </nav> <!-- /#nav -->
+        </div> <!-- /.header-inner -->
+
+      </header>
+      <!-- headerここまで -->
+
+      <!-- mainここから -->
+      <main id="main">
+        <div id="mv" class="hero">
+          <picture>
+            <img class="hero-img" src="img/main-visual.png" alt="PC版メインヴィジュアル画像" loading="lazy">
+          </picture>
+
+          <div class="first-view-ttl wrapper fadeIn">
+            <div class="first-view-txt">
+              <h2 class="site-ttl">
+                Webサイト制作で課題の<br>
+                解決をいたします
+              </h2>
+              <p class="site-sub-ttl">~ The problem will be solved by creating a website. ~</p>
+            </div>
+          </div> <!-- /.first-view -->
+          <div class="lead fadeIn">
+            <p>
+              <span>「オモイ」をデザインする</span><br>
+              あなたの思いや、伝えたいことを形にして伝える。<br>
+              それが私たちHHUUDDです。
+            </p>
+          </div>
+        </div>
+        <!-- /#mv -->
+
+        <!-- POINTセクションここから -->
+        <section id="point">
+          <div class="section-ttl wrapper">
+            <h2 class="section-heading">
+              POINT
+            </h2>
+            <p class="section-sub-heading fadeUpTrigger">
+              HHUUDDが選ばれる<span class="big-txt">5</span>つのポイント
+            </p>
+          </div>
+
+          <div class="point-container wrapper">
+            <div class="point-inner">
+              <!-- point01ここから -->
+              <div class="point-contents fadeUpTrigger">
+                <div class="point-left">
+                  <div class="point-img">
+                    <picture>
+                      <img src="img/point1.png" alt="ポイント1のイメージ画像" loading="lazy">
+                    </picture>
+                  </div>
+                </div> <!-- /.point-left -->
+                <div class="point-right">
+                  <div class="point-description">
+                    <div class="point-ttl">
+                      <h3 class="point-heading">
+                        Planning
+                      </h3>
+                      <h4 class="point-sub-heading">
+                        企画・提案
+                      </h4>
+                    </div> <!-- /.point-ttl -->
+                    <div class="point-txt">
+                      <p class="point-detail">
+                        お客様のご希望を元にデザインの方向性を定め、競合他社のリサーチを行い、ターゲット像を具体的に設定し、見込客の心に刺さるコンテンツを企画いたします。
+                      </p>
+                    </div> <!-- /.point-txt -->
+                  </div> <!-- /.point-description -->
+                </div> <!-- /.point-right -->
+              </div> <!-- /.point -->
+              <!-- point01ここまで -->
+
+              <!-- point02ここから -->
+              <div class="point-contents fadeUpTrigger">
+                <div class="point-left">
+                  <div class="point-img point-img-even">
+                    <picture>
+                      <img src="img/point2.png" alt="ポイント2のイメージ画像" loading="lazy">
+                    </picture>
+                  </div>
+                </div> <!-- /.point-left -->
+                <div class="point-right point-right-even">
+                  <div class="point-description">
+                    <div class="point-ttl">
+                      <h3 class="point-heading">
+                        Web Design
+                      </h3>
+                      <h4 class="point-sub-heading">
+                        ウェブデザイン
+                      </h4>
+                    </div> <!-- /.point-ttl -->
+                    <div class="point-txt">
+                      <p class="point-detail">
+                        貴社のサービスやコンセプト、抱えている課題・目的をヒアリングにより把握し、PC・スマホに最適かつ伝わりやすさを大事にしたデザインで問題を解決いたします。
+                      </p>
+                    </div> <!-- /.point-txt -->
+                  </div> <!-- /.point-description -->
+                </div> <!-- /.point-right -->
+              </div> <!-- /.point -->
+              <!-- point02ここまで -->
+
+              <!-- point03ここから -->
+              <div class="point-contents fadeUpTrigger">
+                <div class="point-left">
+                  <div class="point-img">
+                    <picture>
+                      <img src="img/point3.png" alt="ポイント3のイメージ画像" loading="lazy">
+                    </picture>
+                  </div>
+                </div> <!-- /.point-left -->
+                <div class="point-right">
+                  <div class="point-description">
+                    <div class="point-ttl">
+                      <h3 class="point-heading">
+                        Cording
+                      </h3>
+                      <h4 class="point-sub-heading">
+                        コーディング
+                      </h4>
+                    </div> <!-- /.point-ttl -->
+                    <div class="point-txt">
+                      <p class="point-detail">
+                        PC・タブレット・スマホ・SEOに最適化されたWebサイトになるようにコーディングいたします。
+                      </p>
+                    </div> <!-- /.point-txt -->
+                  </div> <!-- /.point-description -->
+                </div> <!-- /.point-right -->
+              </div> <!-- /.point -->
+              <!-- point03ここまで -->
+
+              <!-- point04ここから -->
+              <div class="point-contents fadeUpTrigger">
+                <div class="point-left">
+                  <div class="point-img point-img-even">
+                    <picture>
+                      <img src="img/point4.png" alt="ポイント4のイメージ画像" loading="lazy">
+                    </picture>
+                  </div>
+                </div> <!-- /.point-left -->
+                <div class="point-right point-right-even">
+                  <div class="point-description">
+                    <div class="point-ttl">
+                      <h3 class="point-heading">
+                        Web Marketing
+                      </h3>
+                      <h4 class="point-sub-heading">
+                        ウェブ マーケティング
+                      </h4>
+                    </div> <!-- /.point-ttl -->
+                    <div class="point-txt">
+                      <p class="point-detail">
+                        ヒアリング時にお客様の課題やWebサイトの現状などを把握・整理し、マーケティング施策を設計・提案します。
+                      </p>
+                    </div> <!-- /.point-txt -->
+                  </div> <!-- /.point-description -->
+                </div> <!-- /.point-right -->
+              </div> <!-- /.point -->
+              <!-- point04ここまで -->
+
+              <!-- point05ここから -->
+              <div class="point-contents fadeUpTrigger">
+                <div class="point-left">
+                  <div class="point-img">
+                    <picture>
+                      <img src="img/point5.png" alt="ポイント5のイメージ画像" loading="lazy">
+                    </picture>
+                  </div>
+                </div> <!-- /.point-left -->
+                <div class="point-right">
+                  <div class="point-description">
+                    <div class="point-ttl">
+                      <h3 class="point-heading">
+                        Maintenance
+                      </h3>
+                      <h4 class="point-sub-heading">
+                        メンテナンス
+                      </h4>
+                    </div> <!-- /.point-ttl -->
+                    <div class="point-txt">
+                      <p class="point-detail">
+                        Webサイトを制作し納品したら終わりではなくお客様の目的を達成するために日々変化していくお客様の情報やデザインの流行に合わせサイトの運用・更新、サーバの保守など安心してご利用いただけるようにサポートいたします。
+                      </p>
+                    </div> <!-- /.point-txt -->
+                  </div> <!-- /.point-description -->
+                </div> <!-- /.point-right -->
+              </div> <!-- /.point-contents -->
+              <!-- point05ここまで -->
+            </div> <!-- /.point-inner -->
+          </div> <!-- /.point-container -->
+        </section> <!-- /#point -->
+        <!-- POINTセクションここまで -->
+
+        <!-- SERVICEセクションここから -->
+        <section id="service">
+          <div class="section-ttl wrapper">
+            <h2 class="section-heading">
+              SERVICE
+            </h2>
+            <p class="section-sub-heading fadeUpTrigger">
+              サービスのご紹介
+            </p>
+          </div>
+
+          <div class="service-container wrapper">
+            <div class="service-inner">
+              <!-- service-contents01ここから -->
+              <div class="service-contents fadeUpTrigger">
+                <div class="service-description">
+                  <div class="service-ttl">
+                    <h3 class="service-heading">
+                      各種Webサイト
+                    </h3>
+                    <h4 class="service-sub-heading">
+                      コーポレート・採用サイト/LP他
+                    </h4>
+                  </div> <!-- /.service-ttl -->
+                  <div class="service-txt">
+                    <p class="service-detail">
+                      お客様のご希望を元にデザインの方向性を定め、競合他社のリサーチを行い、ターゲット像を具体的に設定し、見込客の心に刺さるコンテンツを企画いたします。
+                    </p>
+                    <ul class="service-list">
+                      <li class="service-list-item">
+                        <span>構成</span>
+                        <p>
+                          1〜10ページ前後
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>制作期間</span>
+                        <p>
+                          1〜3ヶ月
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>料金</span>
+                        <p>
+                          10万円〜
+                        </p>
+                      </li>
+                    </ul>
+                  </div> <!-- /.service-txt -->
+                </div> <!-- /.service-description -->
+                <div class="service-img service-web">
+                  <picture>
+                    <img src="img/service1.png" alt="Webサイトのイメージ画像" loading="lazy">
+                  </picture>
+                </div> <!-- /.service-img -->
+              </div> <!-- /.service-contents -->
+              <!-- service-contents01ここまで -->
+
+              <!-- service-contents02ここから -->
+              <div class="service-contents fadeUpTrigger">
+                <div class="service-description">
+                  <div class="service-ttl">
+                    <h3 class="service-heading">
+                      各種カスタマイズ
+                    </h3>
+                    <h4 class="service-sub-heading">
+                      EC・CMSサイト
+                    </h4>
+                  </div> <!-- /.service-ttl -->
+                  <div class="service-txt">
+                    <p class="service-detail">
+                      更新可能なECサイト・CMSベースのサイトについて、機能・デザインの追加や変更を軽微なものから大規模なものまでカスタマイズいたします。
+                    </p>
+                    <ul class="service-list">
+                      <li class="service-list-item">
+                        <span>構成</span>
+                        <p>
+                          1〜10ページ前後
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>制作期間</span>
+                        <p>
+                          3〜6ヶ月
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>料金</span>
+                        <p>
+                          30万円〜
+                        </p>
+                      </li>
+                    </ul>
+                  </div> <!-- /.service-txt -->
+                </div> <!-- /.service-description -->
+                <div class="service-img">
+                  <picture>
+                    <img src="img/service4.jpg" alt="" loading="lazy">
+                  </picture>
+                </div> <!-- /.service-img -->
+              </div> <!-- /.service-contents -->
+              <!-- service-contents02ここまで -->
+
+              <!-- service-contents03ここから -->
+              <div class="service-contents fadeUpTrigger">
+                <div class="service-description">
+                  <div class="service-ttl">
+                    <h3 class="service-heading">
+                      リニューアル
+                    </h3>
+                  </div> <!-- /.service-ttl -->
+                  <div class="service-txt">
+                    <p class="service-detail">
+                      課題の解決にそもそもリニューアルが必要なのかヒアリングさせていただき、必要な場合はご要望に沿うデザインに仕上げます。
+                    </p>
+                    <ul class="service-list">
+                      <li class="service-list-item">
+                        <span>構成</span>
+                        <p>
+                          ー
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>制作期間</span>
+                        <p>
+                          1〜3ヶ月
+                        </p>
+                      </li>
+                      <li class="service-list-item">
+                        <span>料金</span>
+                        <p>
+                          10万円〜
+                        </p>
+                      </li>
+                    </ul>
+                  </div> <!-- /.service-txt -->
+                </div> <!-- /.service-description -->
+                <div class="service-img">
+                  <picture>
+                    <img src="img/service4.jpg" alt="Webサイトのイメージ画像" loading="lazy">
+                  </picture>
+                </div> <!-- /.service-img -->
+              </div> <!-- /.service-contents -->
+              <!-- service-contents03ここまで -->
+            </div> <!-- /.service-inner -->
+          </div> <!-- /.service-container-->
+
+        </section> <!-- /#service -->
+        <!-- SERVICEセクションここまで -->
+
+        <!-- PRICEセクションここから -->
+        <section id="price">
+          <div class="section-ttl wrapper">
+            <h2 class="section-heading">
+              PRICE
+            </h2>
+            <p class="section-sub-heading fadeUpTrigger">
+              サイト制作の目安の料金です。制作内容によって料金が変動します。<br>
+              まずはお問い合わせください。
+            </p>
+          </div> <!-- /.section-ttl -->
+
+          <div class="price-contents wrapper">
+            <ul class="price-list">
+              <!-- シンプルここから -->
+              <li class="price-item">
+                <dl class="price-content-wrap">
+                  <dt class="price-content-ttl">シンプル</dt>
+                  <dd class="price-content-description">1ページ</dd>
+                  <dd class="price-content-description">
+                    <span>1~3</span>ヶ月
+                  </dd>
+                  <dd class="price-content-description price-content-description-price">
+                    <span>10</span>万円〜
+                  </dd>
+                </dl> <!-- /.price-content-wrap -->
+              </li> <!-- /.price-item -->
+              <!-- シンプルここまで -->
+
+              <!-- スタンダードここから -->
+              <li class="price-item">
+                <dl class="price-content-wrap">
+                  <dt class="price-content-ttl price-content-ttl-right-std">スタンダード</dt>
+                  <dd class="price-content-description">10ページ前後</dd>
+                  <dd class="price-content-description">
+                    <span>3~6</span>ヶ月
+                  </dd>
+                  <dd class="price-content-description price-content-description-price">
+                    <span>30</span>万円〜
+                  </dd>
+                </dl> <!-- /.price-content-wrap -->
+              </li> <!-- /.price-item -->
+              <!-- スタンダードここまで -->
+
+              <!-- アドバンスここから -->
+              <li class="price-item">
+                <dl class="price-content-wrap">
+                  <dt class="price-content-ttl price-content-ttl-right-adv">アドバンス</dt>
+                  <dd class="price-content-description">10ページ〜</dd>
+                  <dd class="price-content-description">
+                    <span>6~8</span>ヶ月
+                  </dd>
+                  <dd class="price-content-description price-content-description-price">
+                    <span>50</span>万円〜
+                  </dd>
+                </dl> <!-- /.price-content-wrap -->
+              </li> <!-- /.price-item -->
+              <!-- スタンダードここまで -->
+
+              <!-- カスタムここから -->
+              <li class="price-item">
+                <dl class="price-content-wrap">
+                  <dt class="price-content-ttl">カスタム</dt>
+                  <dd class="price-content-description">ー</dd>
+                  <dd class="price-content-description">
+                    <span>1~6</span>ヶ月
+                  </dd>
+                  <dd class="price-content-description price-content-description-price">
+                    <span>100</span>万円〜
+                  </dd>
+                </dl> <!-- /.price-content-wrap -->
+              </li> <!-- /.price-item -->
+              <!-- カスタムここまで -->
+            </ul> <!-- /.price-list -->
+          </div> <!-- /.price-contents -->
+        </section> <!-- /#price -->
+        <!-- PRICEセクションここまで -->
+
+        <!-- FLOWセクションここから -->
+        <section id="flow">
+          <div class="section-ttl wrapper">
+            <h2 class="section-heading">
+              FLOW
+            </h2>
+            <p class="section-sub-heading fadeUpTrigger">
+              お問い合わせから納品までの流れ。
+            </p>
+          </div>
+
+          <div class="flow-bar-contents scroll-fade-row">
+            <ul class="flow-list">
+              <!-- /.flow-list-item01ここから -->
+              <li class="flow-list-item">
+                <div class="flow-txt">
+                  <figure class="flow-flex-item">
+                    <img src="img/flow1.png" class="flow-img flow-mail" alt="メールのイラスト">
+                  </figure>
+                  <span class="flow-flex-item flow-top">
+                    <span class="flow-item-ttl">
+                      お問い合わせ
+                    </span>
+                    <span class="flow-description">
+                      お問い合わせフォーム
+                      <br class="flow-br-pc">
+                      よりご連絡ください
+                    </span>
+                  </span>
+                </div>
+              </li>
+              <!-- /.flow-list-item01ここまで -->
+
+              <!-- /.flow-list-item02ここから -->
+              <li class="flow-list-item">
+                <div class="flow-txt">
+                  <figure class="flow-flex-item">
+                    <img src="img/flow2.png" class="flow-img flow-ear" alt="耳のイラスト">
+                  </figure>
+                  <span class="flow-flex-item flow-top">
+                    <span class="flow-item-ttl">
+                      ヒアリング
+                    </span>
+                    <span class="flow-description">
+                      訪問・オンラインにて
+                      <br class="flow-br-pc">
+                      ヒアリングを行います
+                    </span>
+                  </span>
+                </div>
+              </li>
+              <!-- /.flow-list-item02ここまで -->
+
+              <!-- /.flow-list-item03ここから -->
+              <li class="flow-list-item">
+                <div class="flow-txt">
+                  <figure class="flow-flex-item">
+                    <img src="img/flow3.png" class="flow-img flow-teian" alt="提案書をお客様に見せているイメージのイラスト">
+                  </figure>
+                  <span class="flow-flex-item flow-top">
+                    <span class="flow-item-ttl">
+                      ご提案
+                    </span>
+                    <span class="flow-description">
+                      ヒアリング内容を元に
+                      <br class="flow-br-pc">
+                      お見積書をご提出いたします
+                    </span>
+                  </span>
+                </div>
+              </li>
+              <!-- /.flow-list-item03ここまで -->
+
+              <!-- /.flow-list-item04ここから -->
+              <li class="flow-list-item">
+                <div class="flow-txt">
+                  <figure class="flow-flex-item">
+                    <img src="img/flow4.png" class="flow-img flow-craft" alt="製作中のイラスト">
+                  </figure>
+                  <span class="flow-flex-item flow-top">
+                    <span class="flow-item-ttl">
+                      制作開始
+                    </span>
+                    <span class="flow-description">
+                      ご発注が確定いたしましたら
+                      <br class="flow-br-pc">
+                      制作を開始いたします
+                    </span>
+                  </span>
+                </div>
+              </li>
+              <!-- /.flow-list-item04ここまで -->
+
+              <!-- /.flow-list-item05ここから -->
+              <li class="flow-list-item">
+                <div class="flow-txt">
+                  <figure class="flow-flex-item">
+                    <img src="img/flow5.png" class="flow-img flow-appreciate" alt="お辞儀のイラスト">
+                  </figure>
+                  <span class="flow-flex-item flow-top">
+                    <span class="flow-item-ttl">
+                      納品
+                    </span>
+                    <span class="flow-description">
+                      お客様に満足いただけるWebサイトを
+                      <br class="flow-br-pc">
+                      納品させていただきます
+                    </span>
+                  </span>
+                </div>
+              </li>
+              <!-- /.flow-list-item05ここまで -->
+            </ul>
+          </div> <!-- /.flow-bar-contents -->
+        </section> <!-- /#FLOW -->
+        <!-- FLOWセクションここまで -->
+
+        <!-- CONTACTセクションここから -->
+        <section id="contact">
+          <div class="section-ttl wrapper">
+            <h2 class="section-heading">
+              CONTACT
+            </h2>
+            <p class="section-sub-heading fadeUpTrigger">
+              制作に関するご質問・ご相談はこちらよりお願いいたします<br>
+              <span>ご相談、お問い合わせは無料です</span>
+            </p>
+            <a  class="nav-btn" href="../contact/index.php">
               お問い合わせ
-            </li>
-            <li class="nav-item">
-              <span class="circle"></span>
-            </li>
-            <li class="nav-item">
-              <span class="arrow"></span>
-            </li>
-          </ul>
-        </a>
-      </div>
+            </a>
+          </div>
+        </section>
+      </main>
+      <!-- mainここまで -->
 
-      <!-- ハンバーガーボタン -->
-      <div class="toggle-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </header>
+      <!-- footerここから -->
+      <footer id="footer">
+        <a id="to-top" href="#"></a>
 
-    <main id="main">
-      <div id="mv">
-        <ul class="mv-img">
-          <li><img src="img/mv1_pc.png"></li>
-          <li class="sp-mv"><img src="img/mv1_sp.png"></li>
-        </ul>
-        <div class="mv-txt">
-          <p class="site-title">
-            <span>その課題</span>
-          </p>
-          <p class="site-title">
-            <span>Webサイト制作で</span>
-          </p>
-          <p class="site-title">
-            <span>「解決」いたします。</span>
-          </p>
-        </div>
+        <div class="footer-inner wrapper">
+          <h1 class="site-logo">
+            <a href="index.html"><img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDのロゴ" loading="lazy"></a>
+          </h1>
 
-      </div> <!-- /#mv -->
-
-      <!-- POINTセクションここから -->
-      <section id="point">
-        <h2 class="sec-title">
-          POINT
-        </h2>
-        <p class="sec-title-ja">
-          HHUUDDが選ばれる<span class="big-txt">5つ</span>のポイント
+          <div class="footer-item">
+            <ul>
+              <li>
+                <div class="ly_inner">
+                  <a href="https://hhuudd.com/">Corporate Site</a>
+                </div>
+              </li>
+              <li>
+                <div class="ly_inner" id="menu2">
+                  <div class="md_textblock">
+                    <!-- モーダル（ポップアップ）ボタン -->
+                    <p class="js_modalBtnWrap">
+                      <a href="" class="js_modalBtnCont" data-modal-btn="modal02">Privacy Policy
+                      </a>
+                    </p>
+                    <!-- //モーダル（ポップアップ）ボタン -->
+                  </div> <!-- /.md_textblock -->
+                  <!-- モーダル（ポップアップ）の内容 -->
+                  <div class="js_modalWrap" data-modal-cont="modal02">
+                    <div class="js_modalBG"></div>
+                    <div class="js_modalContInner">
+                      <span class="js_modalClose"></span>
+                      <div class="js_modalCont">
+                        <h3>個人情報保護方針</h3>
+                        <p>
+                          株式会社HHUUDD（以下、弊社）は、弊社サイト（ https://hhuudd.com/ 以下「当サイト」といいます）において提供するサービス（メルマガオンライン登録・お問い合せの受付等）の円滑な運営に必要な範囲で、個人情報を取り扱っております。<br>
+                          弊社またはその代理人が管理･運営する当サイトにおけるプライバシーポリシーを次のとおり定め、皆様に安心してご利用頂けるよう、管理・運営に努めます。<br>
+                          弊社は、当サイトを通じて皆様の個人情報をご提供頂いたときは、これを本プライバシーポリシーに従って取扱います。但し、個人情報をご提供頂く特定のウェブページにおいて、本プライバシーポリシーと異なる定めをした場合には、本プライバシーポリシーに優先して適用されるものとします。
+                        </p>
+                        <p>
+                          個人情報の取り扱い<br>
+                          本プライバシーポリシーにおいて『個人情報』とは、弊社がインターネットを通じ、当サイトにおいて皆様からご提供頂く氏名、住所、電話番号、電子メールアドレス等、個人を識別できる情報あるいは皆様各個人の固有の情報を意味します。
+                        </p>
+                        <p>
+                          収集する情報の範囲<br>
+                          弊社へのメニュー・サービス等に関するお問い合わせ受付の際に返信が必要な場合、個人情報の記入をお願いしております。<br>
+                          各種お問い合せの受付を「info@hhuudd.com」のメールアドレスで行なう場合は、必要に応じて個人情報の記入をお願いすることがあります。また、差出人のメールアドレスが受信者側に表示されます。
+                        </p>
+                        <p>
+                          個人情報の利用目的<br>
+                          皆様からのお問合せを頂いた際、適した情報提供を通知する場合に利用します。
+                        </p>
+                        <p>
+                          リンク先における個人情報の保護<br>
+                          弊社は、当サイトからリンクするウェブサイトにおける個人情報の安全確保については責任を負うことはできません。<br>
+                          リンク先の個人情報保護につきましては、当該リンク先におけるプライバシーポリシー等を皆様ご自身でご確認頂きますようお願い致します。
+                        </p>
+                        <p>
+                          個人情報の管理<br>
+                          皆様にご提供頂いた個人情報は、次の場合を除き第三者に開示致しません。<br>
+                          ・皆様の同意がある場合<br>
+                          ・個人情報に関する機密保持契約を締結している業務委託会社に対して、皆様に明示した利用目的の達成に必要な範囲で個人情報の取扱いを委託する場合<br>
+                          ・統計的なデータとして、皆様個人を識別できない状態に加工した場合（例：ウェブサイトの年齢別利用状況を公表する場合等）<br>
+                          ・公的機関(警察、裁判所等)からの要請により、提供に応じなければならない場合
+                        </p>
+                        <p>
+                          お問い合わせ対応口<br>
+                          本プライバシーポリシーに関するお問い合せにつきましては、下記までご連絡下さい。なお、下記のお問い合せ先では、お客様がご提供された個人情報に関するお問い合せには、直ちには対応できない場合がございますので、予めご了承下さい。<br>
+                          お問合せ先：info@hhuudd.com<br>
+                        </p>
+                        <p>
+                          その他<br>
+                          本プライバシーポリシーは、予告なく変更されることがあります。
+                        </p>
+                        <p>
+                          2020年2月5日<br>
+                          株式会社HHUUDD
+                        </p>
+                      </div> <!-- /.js_modalCont -->
+                    </div> <!-- /.js_modalContInner -->
+                  </div> <!-- /.js_modalWrap -->
+                  <!-- //モーダル（ポップアップ）の内容 -->
+                </div> <!-- /.ly_inner /#menu2-->
+              </li>
+              <li>
+                <div class="ly_inner" id="menu3">
+                  <div class="md_textblock">
+                    <p class="js_modalBtnWrap">
+                      <a href="" class="js_modalBtnCont" data-modal-btn="modal03">Term of use
+                      </a>
+                    </p>
+                  </div> <!-- /.md_textblock -->
+                  <div class="js_modalWrap" data-modal-cont="modal03">
+                    <div class="js_modalBG"></div>
+                    <div class="js_modalContInner">
+                      <span class="js_modalClose"></span>
+                      <div class="js_modalCont">
+                        <h3>情報セキュリティ方針</h3>
+                        <p>
+                          当社は、業務上取り扱う顧客等の情報資産および当社の情報資産を各種脅威から守り、企業としての社会的使命を果たすため、情報セキュリティポリシーとして本基本方針および情報セキュリティ基本規程、個人情報保護規程その他の関連規程・規則を定め、以下の取組みを実施いたします。
+                        </p>
+                        <br>
+                        <p>
+                          １．当社は、業務上取り扱う顧客等の情報資産のセキュリティ対策には万全を期すものとし、紛失、破壊、改ざんおよび漏えい等のリスク未然防止につねに最優先にて取り組むものとする。
+                        </p>
+                        <p>
+                          ２．当社は、当社の情報資産についても、それを最大限有効に活用しつつ、その重要度に応じた適切なセキュリティ対策を実施する。
+                        </p>
+                        <p>
+                          ３．当社は、情報セキュリティに関する組織として社内に「情報セキュリティ管理委員会」を設置するほか、部門単位に情報セキュリティ管理の責任者および担当者を置き、全社的な組織体制により情報資産のセキュリティ対策を実施・運用・推進する。
+                        </p>
+                        <p>
+                          ４．当社は、役員・社員等（パートタイマーを含む。）に対する情報セキュリティに関する教育・啓蒙を継続的に実施し、情報セキュリティポリシーの周知徹底に努める。情報資産を取り扱うすべての役員・社員等は、情報セキュリティポリシーを遵守し、そこに定められた義務と責任を果たすものとする。
+                        </p>
+                        <p>
+                          ５．当社は、技術の進歩や業務環境の変化等も考慮のうえ、情報資産のリスク評価を多方面から継続的に実施し、それを情報セキュリティポリシーおよびそれに基づく各種施策に反映させることにより、情報セキュリティの維持・向上を図るものとする。
+                        </p>
+                        <p>
+                          ６．当社は、情報セキュリティに関する各種運用の状況等について定期的に監査を実施し、必要に応じた適切な是正措置を講じることにより、情報セキュリティの確保に努めるものとする。
+                        </p>
+                        <p>
+                          ７．当社は、インターネット社会の秩序を守るとともに、その健全なる発展のために貢献する。
+                        </p>
+                        <p>
+                          ８．当社は、情報セキュリティに関連する法令、その他の規範を遵守する。
+                        </p>
+                      </div> <!-- /.js_modalCont -->
+                    </div> <!-- /.js_modalContInner -->
+                  </div> <!-- /.js_modalWrap -->
+                </div> <!-- /.ly_inner /#menu3-->
+              </li>
+            </ul>
+          </div>
+        </div> <!-- /.footer-inner wrapper -->
+        <p class="copy">
+          &copy; Copyright © 2020 hhuudd all right reserved.
         </p>
-
-        <div class="point-container">
-          <!-- point01 -->
-          <div class="point-item">
-            <div class="point-item-inner content">
-              <div class="point-item-img">
-                <img src="img/point1.png" alt="企画・提案のイメージアイソメトリック">
-              </div> <!-- /.point-item-img -->
-              <div class="point-item-txt">
-                <div class="point-item_ttl">
-                  <p class="point-catch">
-                    <span class="point-catch-point en">POINT</span>
-                    <span class="point-catch-num en">01</span>
-                  </p>
-                  <h3 class="point-name">Planning</h3>
-                  <h4 class="point-name-ja">企画・提案</h4>
-                </div> <!-- /.point-item-ttl -->
-                <p class="point-detail">お客様のご希望を元にデザインの方向性を定め、競合他社のリサーチを行い、ターゲット像を具体的に設定し、見込客の心に刺さるコンテンツを企画いたします。
-                </p>
-              </div> <!-- /.point-item-txt -->
-            </div> <!-- /.point-item-inner wrapper -->
-          </div> <!-- /.point-item -->
-          <!-- point01ここまで -->
-
-          <!-- point02 -->
-          <div class="point-item">
-            <div class="point-item-inner content">
-              <div class="point-item-img">
-                <img src="img/point2.png" alt="Webデザインのイメージアイソメトリック">
-              </div> <!-- /.point-item-img -->
-              <div class="point-item-txt">
-                <div class="point-item_ttl">
-                  <p class="point-catch">
-                    <span class="point-catch-point en">POINT</span>
-                    <span class="point-catch-num en">02</span>
-                  </p>
-                  <h3 class="point-name">Web Design</h3>
-                  <h4 class="point-name-ja">ウェブ デザイン</h4>
-                </div> <!-- /.point-item-ttl -->
-                <p class="point-detail">貴社のサービスやコンセプト、抱えている課題・目的をヒアリングにより把握し、PC・スマホに最適かつ伝わりやすさを大事にしたデザインで問題を解決いたします。
-                </p>
-              </div> <!-- /.point-item-txt -->
-            </div> <!-- /.point-item-inner wrapper -->
-          </div> <!-- /.point-item -->
-          <!-- point02ここまで -->
-
-          <!-- point03 -->
-          <div class="point-item">
-            <div class="point-item-inner content">
-              <div class="point-item-img">
-                <img src="img/point3.png" alt="コーディングのイメージアイソメトリック">
-              </div> <!-- /.point-item-img -->
-              <div class="point-item-txt">
-                <div class="point-item_ttl">
-                  <p class="point-catch">
-                    <span class="point-catch-point en">POINT</span>
-                    <span class="point-catch-num en">03</span>
-                  </p>
-                  <h3 class="point-name">Cording</h3>
-                  <h4 class="point-name-ja">コーディング</h4>
-                </div> <!-- /.point-item-ttl -->
-                <p class="point-detail">PC・タブレット・スマホ・SEOに最適化されたWebサイトになるようにコーディングいたします。
-                </p>
-              </div> <!-- /.point-item-txt -->
-            </div> <!-- /.point-item-inner wrapper -->
-          </div> <!-- /.point-item -->
-          <!-- point03ここまで -->
-
-          <!-- point04 -->
-          <div class="point-item">
-            <div class="point-item-inner content">
-              <div class="point-item-img">
-                <img src="img/point4.png" alt="Webマーケティングのイメージアイソメトリック">
-              </div> <!-- /.point-item-img -->
-              <div class="point-item-txt">
-                <div class="point-item_ttl">
-                  <p class="point-catch">
-                    <span class="point-catch-point en">POINT</span>
-                    <span class="point-catch-num en">04</span>
-                  </p>
-                  <h3 class="point-name">Web Marketing</h3>
-                  <h4 class="point-name-ja">ウェブ マーケティング</h4>
-                </div> <!-- /.point-item-ttl -->
-                <p class="point-detail">ヒアリング時にお客様の課題やWebサイトの現状などを把握・整理し、マーケティング施策を設計・提案します。
-                </p>
-              </div> <!-- /.point-item-txt -->
-            </div> <!-- /.point-item-inner wrapper -->
-          </div> <!-- /.point-item -->
-          <!-- point04ここまで -->
-
-          <!-- point05 -->
-          <div class="point-item">
-            <div class="point-item-inner content">
-              <div class="point-item-img">
-                <img src="img/point5.png" alt="メンテナンスのイメージアイソメトリック">
-              </div> <!-- /.point-item-img -->
-              <div class="point-item-txt">
-                <div class="point-item_ttl">
-                  <p class="point-catch">
-                    <span class="point-catch-point en">POINT</span>
-                    <span class="point-catch-num en">05</span>
-                  </p>
-                  <h3 class="point-name">Maintenance</h3>
-                  <h4 class="point-name-ja">メンテナンス</h4>
-                </div> <!-- /.point-item-ttl -->
-                <p class="point-detail">Webサイトを制作し納品したら終わりではなくお客様の目的を達成するために日々変化していくお客様の情報やデザインの流行に合わせサイトの運用・更新、サーバの保守など安心してご利用いただけるようにサポートいたします。
-                </p>
-              </div> <!-- /.point-item-txt -->
-            </div> <!-- /.point-item-inner wrapper -->
-          </div> <!-- /.point-item -->
-          <!-- point05ここまで -->
-        </div> <!-- /.point-container -->
-      </section> <!-- /#point -->
-      <!-- POINTセクションここまで -->
-
-      <!-- SERVICEセクションここから -->
-      <section id="service">
-        <!-- <div class="section-arrow"></div> -->
-
-        <h2 class="sec-title sec-title-white">
-          SERVICE
-        </h2>
-        <p class="sec-title-ja sec-title-ja-white">
-          Webサイトを作る目的をお聞かせください
-        </p>
-        
-        <div class="service-grid-container">
-          <div id="service-item1" class="service-item">
-            <a href="service.html#service-item1">
-              <img src="img/service1.jpg" alt="コーポレートサイトのイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  コーポレートサイトを作りたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item1 -->
-          
-          <div class="service-item">
-            <a href="service.html#service-item2">
-              <img src="img/service2.jpg" alt="採用サイトのイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  採用サイトを作りたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item2 -->
-          
-          <div class="service-item">
-            <a href="service.html#service-item3">
-              <img src="img/service3.png" alt="ランディングページ(LP)のイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  ランディングページ(LP)を作りたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item3 -->
-          
-          <div class="service-item">
-            <a href="service.html#service-item4">
-              <img src="img/service4.png" alt="ECサイトのイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  ECサイトをカスタマイズしたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item4 -->
-          
-          <div class="service-item">
-            <a href="service.html#service-item5">
-              <img src="img/service5.png" alt="CMSのイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  CMSをカスタマイズしたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item5 -->
-          
-          <div class="service-item">
-            <a href="service.html#service-item6">
-              <img src="img/service6.jpg" alt="リニューアルのイメージ画像">
-              <div class="service-grid-txt-box">
-                <p class="service-grid-txt">
-                  リニューアルしたい
-                </p>
-                <div class="service-circle-arrow">
-                  <span class="service-circle"></span>
-                  <span class="service-arrow"></span>
-                </div>
-              </div>
-            </a>
-          </div> <!-- /.service-item6 -->
-        </div><!-- /.service-grid-container -->
-      </section> <!-- /#service -->
-      <!-- SERVICEセクションここまで -->
-
-      <!-- FLOWセクションここから -->
-      <section id="flow">
-        <div class="triangle triangle-blue"></div>
-
-        <h2 class="sec-title">
-          FLOW
-        </h2>
-        <p class="sec-title-ja">
-          お問い合わせから納品までの流れ
-        </p>
-
-        <div class="flowbar">
-          <div class="flowbarwrap">
-            <div class="flow-left">
-              <div class="flowtitle">
-                <div class="flowcircle">
-                  <span>01</span>
-                </div>
-                <p class="title">お問い合わせ</p>
-              </div>
-              <div class="flowtxt">
-                <span class="txt">
-                  お問い合わせフォームよりご連絡ください
-                </span>
-              </div>
-            </div>
-            <div class="flow-right">
-              <div class="flowimg">
-                <img src="img/flow1.png" alt="封筒のイラスト">
-              </div>
-            </div>
-            <span class="flowline"></span>
-          </div> <!-- /.flowbarwrap1 -->
-          
-          <div class="flowbarwrap">
-            <div class="flow-left">
-              <div class="flowtitle">
-                <div class="flowcircle">
-                  <span>02</span>
-                </div>
-                <p class="title">ヒアリング</p>
-              </div>
-              <div class="flowtxt">
-                <span class="txt">
-                  訪問・オンラインにてヒアリングを行います
-                </span>
-              </div>
-            </div>
-            <div class="flow-right">
-              <div class="flowimg">
-                <img src="img/flow2.png" alt="耳のイラスト">
-              </div>
-            </div>
-            <span class="flowline flowline-even"></span>
-          </div> <!-- /.flowbarwrap2 -->
-
-          <div class="flowbarwrap">
-            <div class="flow-left">
-              <div class="flowtitle">
-                <div class="flowcircle">
-                  <span>03</span>
-                </div>
-                <p class="title">ご提案</p>
-              </div>
-              <div class="flowtxt">
-                <span class="txt">
-                  ヒアリング内容を元にお見積書をご提出いたします
-                </span>
-              </div>
-            </div>
-            <div class="flow-right">
-              <div class="flowimg">
-                <img src="img/flow3.png" alt="提案書をお客様に見せているイメージのイラスト">
-              </div>
-            </div>
-            <span class="flowline"></span>
-          </div> <!-- /.flowbarwrap3 -->
-
-          <div class="flowbarwrap">
-            <div class="flow-left">
-              <div class="flowtitle">
-                <div class="flowcircle">
-                  <span>04</span>
-                </div>
-                <p class="title">制作開始</p>
-              </div>
-              <div class="flowtxt">
-                <span class="txt">
-                  ご発注が確定いたしましたら制作を開始いたします
-                </span>
-              </div>
-            </div>
-            <div class="flow-right">
-              <div class="flowimg">
-                <img src="img/flow4.png" alt="封筒のイラスト">
-              </div>
-            </div>
-            <span class="flowline flowline-even"></span>
-          </div> <!-- /.flowbarwrap4 -->
-
-          <div class="flowbarwrap">
-            <div class="flow-left">
-              <div class="flowtitle">
-                <div class="flowcircle">
-                  <span>05</span>
-                </div>
-                <p class="title">納品</p>
-              </div>
-              <div class="flowtxt">
-                <span class="txt">
-                  お客様に満足いただけるWebサイトを納品させていただきます
-                </span>
-              </div>
-            </div>
-            <div class="flow-right">
-              <div class="flowimg">
-                <img src="img/flow5.png" alt="お辞儀している人のイラスト">
-              </div>
-            </div>
-            <span class="flowline"></span>
-          </div> <!-- /.flowbarwrap5 -->
-        </div> <!-- /.flowbar -->
-      </section> <!-- /#FLOW -->
-      <!-- FLOWセクションここまで -->
-
-      <!-- CONTACTセクションここから -->
-      <section id="contact">
-        <div class="triangle"></div>
-
-        <div class="contact-container">
-          <h2 class="sec-title sec-title-white">
-            CONTACT
-          </h2>
-          <p class="sec-title-ja sec-title-ja-white">
-            制作に関するご質問・ご相談はこちらよりお願いいたします
-          </p>
-          <p>
-          ご相談、お問い合わせは無料です
-          </p>
-          <a  class="nav-btn" href="contact.html">
-             お問い合わせ
-          </a>
-        </div>
-      </seciton>
-    </main>
-
-    <footer id="footer">
-      <a id="to-top" href="#"></a>
-      <a id="to-contact" href="contact.html">
-        <i class="fas fa-envelope c-icon" aria-hidden="true"></i>
-      </a>
-
-      <div class="footer-container">
-        <h1 class="site-logo">
-          <a href="index.html"><img src="img/logo-hhuudd-white.png" alt="株式会社HHUUDDロゴ"></a>
-        </h1>
-
-        <div class="footer-item">
-          <ul>
-            <li><a href="#">会社概要</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Term of use</a></li>
-          </ul>
-        </div>
-      </div> <!-- /.footer-container wrapper -->
-      <p class="copy">
-        &copy; Copyright © 2020 hhuudd all right reserved.
-      </p>
-    </footer>
+      </footer>
+      <!-- footerここまで -->
+    </div> <!-- /.SiteWrapper -->
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <!-- js -->
     <script src="js/script.js"></script>
